@@ -23,7 +23,7 @@ Follow these steps to set up the project locally:
    cd HometownPage
    ```
 ## preview
-C:\Users\K.M.KISHORE\Desktop\Scrimba\Solo-Project(HometownPage)\SoloProject.mp4
+![Demo](SoloProject.mp4)
 
 
 
