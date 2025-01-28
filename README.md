@@ -23,7 +23,7 @@ Follow these steps to set up the project locally:
    cd HometownPage
    ```
 ## preview
-![Demo](SoloProject.mp4)
+[Demo](SoloProject.mp4)
 
 
 
