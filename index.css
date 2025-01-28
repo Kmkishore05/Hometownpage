@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: "Josefin Sans", serif;
+}
+
+.hero {
+    background-image: url("images/yercard.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* Enables parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: white; /* Ensure text is visible */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Add some shadow for contrast */
+}
+
+h1 {
+    margin: 0;
+}
+
+.cards{
+    background-image: url("images/yercard2.jpg");
+    background-size: cover;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.7) ;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 40px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 70px 10px auto auto ;
+}
+
+.card1{
+    background-image: url("images/meturdam.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px black;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: azure;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card2{
+    background-image: url("images/skerala.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px black;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: azure;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card3{
+    background-image: url("images/yercard\ 3.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px black;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: azure;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card4{
+    background-image: url("images/1008.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px black;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: azure;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card5{
+    background-image: url("images/fort.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px black;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: azure;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card6{
+    background-image: url("images/oothumalai.jpg");
+    background-size: cover;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px black;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s ,background-image 0.3s;
+    color: azure;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card1:hover{
+    background-image: none;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px black;
+}
+
+.card2:hover{
+    background-image: none;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px black;
+}
+
+.card3:hover{
+    background-image: none;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px black;
+}
+
+.card4:hover{
+    background-image: none;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px black;
+}
+
+.card5:hover{
+    background-image: none;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px black;
+}
+
+.card6:hover{
+    background-image: none;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px black;
+}
+
+#btn{
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: inherit;
+    background: linear-gradient(#00c8ff,#ffffff);
+    border-radius: 20px;
+}
+
+.guide{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#68d8d6,#9ceaef,#c4fff9);
+    
+}
+.profile{
+    width: 400px;
+    background-color: #66666e;
+    border: 5px solid #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 350px;
+}
+.avatar{
+    /* width: 200px;
+    height: 300px;
+    padding-left: 420px;
+    padding-top: 300px; */
+    width: 200px;
+    height: 350px;
+    border-radius: 5px;
+    border: 3px solid #9999a1;
+}
+h2{
+    font-size: 20px;
+            font-weight: bold;
+            color: #e6e6e9;
+            margin: 10px 0;
+   /* padding-left: 180px;
+   padding-bottom: 400px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start; */
+
+}
+.right-section h2 {
+    font-size: 18px;
+    color: #e6e6e9;
+}
+
+.right-section p {
+    font-size: 14px;
+    color: black;
+}
+.right-section {
+    flex: 2;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid black;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
