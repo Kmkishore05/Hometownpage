@@ -25,6 +25,8 @@ Follow these steps to set up the project locally:
 ## preview
 [Demo](SoloProject.mp4)
 
+## deployed webpage
+[View Page](https://salemcity.netlify.app/)
 
 
 
